@@ -20,6 +20,7 @@ p {
 .conteiner {
     width: 90%;
     margin: 0 auto ;
+    padding: 0 15px;
 }
 /* Header
 ====================*/
@@ -203,3 +204,46 @@ p {
 .works__item:hover .works__content{
     opacity: 1;
 }
+/* Team
+====================*/
+.team {
+    margin: 100px auto 70px auto;
+    width: 90%;
+}
+.team__inner {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 15px;
+}
+.team__item {
+    width: 25%;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.team__photo {
+    display: block;
+    max-width: 100%;
+    width: 80%;
+    height: auto;
+    margin: 0 auto 20px auto;
+
+}
+.team__name {
+    font-size: 22px;
+    margin-bottom: 5px;
+    color:black;
+}
+.team__prof {
+    font-size: 13px;
+    color:red;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+.team__text  {
+    font-size: 14px;
+    line-height: 1.5;
+    color: cadetblue;
+}
+/* Social
+====================*/
