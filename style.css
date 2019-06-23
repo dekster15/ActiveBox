@@ -224,7 +224,7 @@ p {
 .team__photo {
     display: block;
     max-width: 100%;
-    width: 80%;
+    width: 90%;
     height: auto;
     margin: 0 auto 20px auto;
 
@@ -244,6 +244,77 @@ p {
     font-size: 14px;
     line-height: 1.5;
     color: cadetblue;
+    margin-bottom: 20px;
 }
 /* Social
 ====================*/
+.social {
+    display: flex;
+    padding-left: 8px;
+}
+.social__item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #dbd4d9;
+    margin-right: 4px;
+    transition: background-color 1s linear;
+}
+.social__item:hover {
+    background-color:#dbd4d9 ;
+}
+
+.social__item:hover .social__icon{
+    fill: black;
+}
+.social__icon {
+    fill: #a8ae9e;
+    display: block;
+    height: 18px;
+    transition: fill 1s linear;
+}
+/* Reviews
+====================*/
+.reviews {
+    background-color: #951334;
+    overflow: hidden;
+}
+.reviews__item {
+    display: flex;
+    flex-wrap: wrap;
+}
+.reviews__photo {
+    width: 50%;
+    height: 500px;
+    position: relative;
+
+}
+.reviews__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 80px;
+}
+.reviews_text {
+    margin-bottom: 25px;
+    font-family: 'Cardo', sans-serif;
+    font-style: italic;
+    font-size: 36px;
+    line-height: 1.2;
+    color: white;
+}
+.reviews_image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+}
+.reviews_author {
+    font-size: 13px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color:#ffffff;
+}
